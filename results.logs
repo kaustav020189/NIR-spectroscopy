@@ -1,0 +1,48 @@
+INFO: 2022-12-16 21:41:55,796: ************************************
+INFO: 2022-12-16 21:41:55,796: ************************************
+INFO: 2022-12-16 21:41:55,796: ************************************
+INFO: 2022-12-16 21:41:55,796: Pipeline Start...
+INFO: 2022-12-16 21:41:55,796: Pipeline Start...
+INFO: 2022-12-16 21:41:55,796: Pipeline Start...
+INFO: 2022-12-16 21:41:55,797: Pipeline params :
+INFO: 2022-12-16 21:41:55,797: Pipeline params :
+INFO: 2022-12-16 21:41:55,797: Pipeline params :
+INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
+INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
+INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
+INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
+INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
+INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
+INFO: 2022-12-16 21:42:05,329: Best window size 3
+INFO: 2022-12-16 21:42:05,329: Best window size 3
+INFO: 2022-12-16 21:42:05,329: Best window size 3
+INFO: 2022-12-16 21:42:05,330: Best polyorder 2
+INFO: 2022-12-16 21:42:05,330: Best polyorder 2
+INFO: 2022-12-16 21:42:05,330: Best polyorder 2
+INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
+INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
+INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
+INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
+INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
+INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
+INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
+INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
+INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
+INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
+INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
+INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
+INFO: 2022-12-16 21:42:28,844: Pipeline end...
+INFO: 2022-12-16 21:42:28,844: Pipeline end...
+INFO: 2022-12-16 21:42:28,844: Pipeline end...
+INFO: 2022-12-16 21:42:28,845: ************************************
+INFO: 2022-12-16 21:42:28,845: ************************************
+INFO: 2022-12-16 21:42:28,845: ************************************
