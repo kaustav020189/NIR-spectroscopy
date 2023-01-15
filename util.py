@@ -458,9 +458,9 @@ def optimize_and_validate_lasso(X_train, X_test, y_train, y_test, validation_par
         cv = KFold(n_splits=validation_params['folds'], random_state=None, shuffle=False)
     elif validation_params['validation_type'] == 'stratified-kfold-cv':
         cv = StratifiedKFold(n_splits=validation_params['folds'], random_state=None, shuffle=False)
-    elif validation_params['validation_type'] == 'repeated-kfold-cv':
-        cv = RepeatedKFold(n_repeats=2, n_splits=validation_params['folds'],
-                           random_state=2652124)  # any int, helps reproduce same split over multiple runs
+    # elif validation_params['validation_type'] == 'repeated-kfold-cv':
+    #     cv = RepeatedKFold(n_repeats=2, n_splits=validation_params['folds'],
+    #                        random_state=2652124)  # any int, helps reproduce same split over multiple runs
     # define model
     # alphas=np.arange(0, 1, 0.01)
     model = LassoCV(cv=cv, random_state=0, max_iter=10000)

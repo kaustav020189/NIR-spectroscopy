@@ -504,3 +504,555 @@ INFO: 2023-01-15 00:33:48,475: Model loss : 0.6265047953849817
 INFO: 2023-01-15 00:33:48,476: Elapsed time for pipeline run : 18.84
 INFO: 2023-01-15 00:33:48,476: Pipeline end...
 INFO: 2023-01-15 00:33:48,477: ************************************
+INFO: 2023-01-15 18:29:49,360: ************************************
+INFO: 2023-01-15 18:29:49,361: Pipeline Start...
+INFO: 2023-01-15 18:29:49,361: Pipeline params :
+INFO: 2023-01-15 18:29:49,362: Data : ['2022_07_13.csv', '2022_06_22.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:29:49,362: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:29:49,362: [PRE PROCESSING]
+INFO: 2023-01-15 18:29:49,449: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:30:08,863: Optimized n_comp for PLS 29
+INFO: 2023-01-15 18:30:08,864: [MODEL EVALUATION]
+INFO: 2023-01-15 18:30:08,990: Model loss : 0.30523337546340606
+INFO: 2023-01-15 18:30:08,992: Elapsed time for pipeline run : 19.63
+INFO: 2023-01-15 18:30:08,994: Pipeline end...
+INFO: 2023-01-15 18:30:08,995: ************************************
+INFO: 2023-01-15 18:30:08,996: ************************************
+INFO: 2023-01-15 18:30:08,996: Pipeline Start...
+INFO: 2023-01-15 18:30:08,997: Pipeline params :
+INFO: 2023-01-15 18:30:08,998: Data : ['2022_07_13.csv', '2022_06_22.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:30:08,999: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:30:08,999: [PRE PROCESSING]
+INFO: 2023-01-15 18:30:09,325: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:30:29,385: Optimized n_comp for PLS 10
+INFO: 2023-01-15 18:30:29,389: [MODEL EVALUATION]
+INFO: 2023-01-15 18:30:29,476: Model loss : 0.3412584507155299
+INFO: 2023-01-15 18:30:29,478: Elapsed time for pipeline run : 20.48
+INFO: 2023-01-15 18:30:29,479: Pipeline end...
+INFO: 2023-01-15 18:30:29,480: ************************************
+INFO: 2023-01-15 18:34:45,367: ************************************
+INFO: 2023-01-15 18:34:45,368: Pipeline Start...
+INFO: 2023-01-15 18:34:45,368: Pipeline params :
+INFO: 2023-01-15 18:34:45,368: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:34:45,368: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:34:45,369: [PRE PROCESSING]
+INFO: 2023-01-15 18:34:45,496: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:35:10,258: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:35:10,262: [MODEL EVALUATION]
+INFO: 2023-01-15 18:35:10,548: Model loss : 0.39323120662752775
+INFO: 2023-01-15 18:35:10,550: Elapsed time for pipeline run : 25.18
+INFO: 2023-01-15 18:35:10,550: Pipeline end...
+INFO: 2023-01-15 18:35:10,551: ************************************
+INFO: 2023-01-15 18:35:10,552: ************************************
+INFO: 2023-01-15 18:35:10,556: Pipeline Start...
+INFO: 2023-01-15 18:35:10,561: Pipeline params :
+INFO: 2023-01-15 18:35:10,565: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:35:10,566: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:35:10,567: [PRE PROCESSING]
+INFO: 2023-01-15 18:35:10,933: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:35:37,486: Optimized n_comp for PLS 11
+INFO: 2023-01-15 18:35:37,489: [MODEL EVALUATION]
+INFO: 2023-01-15 18:35:37,602: Model loss : 0.430501075476446
+INFO: 2023-01-15 18:35:37,610: Elapsed time for pipeline run : 27.06
+INFO: 2023-01-15 18:35:37,611: Pipeline end...
+INFO: 2023-01-15 18:35:37,612: ************************************
+INFO: 2023-01-15 18:36:16,142: ************************************
+INFO: 2023-01-15 18:36:16,143: Pipeline Start...
+INFO: 2023-01-15 18:36:16,143: Pipeline params :
+INFO: 2023-01-15 18:36:16,144: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:36:16,144: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:36:16,144: [PRE PROCESSING]
+INFO: 2023-01-15 18:36:16,270: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:36:48,625: Optimized n_comp for PLS 37
+INFO: 2023-01-15 18:36:48,627: [MODEL EVALUATION]
+INFO: 2023-01-15 18:36:49,029: Model loss : 0.39624120552708875
+INFO: 2023-01-15 18:36:49,031: Elapsed time for pipeline run : 32.89
+INFO: 2023-01-15 18:36:49,031: Pipeline end...
+INFO: 2023-01-15 18:36:49,032: ************************************
+INFO: 2023-01-15 18:36:49,033: ************************************
+INFO: 2023-01-15 18:36:49,034: Pipeline Start...
+INFO: 2023-01-15 18:36:49,035: Pipeline params :
+INFO: 2023-01-15 18:36:49,036: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:36:49,037: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:36:49,038: [PRE PROCESSING]
+INFO: 2023-01-15 18:36:49,415: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:37:22,749: Optimized n_comp for PLS 23
+INFO: 2023-01-15 18:37:22,751: [MODEL EVALUATION]
+INFO: 2023-01-15 18:37:23,026: Model loss : 0.43143567416232
+INFO: 2023-01-15 18:37:23,027: Elapsed time for pipeline run : 33.99
+INFO: 2023-01-15 18:37:23,029: Pipeline end...
+INFO: 2023-01-15 18:37:23,034: ************************************
+INFO: 2023-01-15 18:38:30,415: ************************************
+INFO: 2023-01-15 18:38:30,416: Pipeline Start...
+INFO: 2023-01-15 18:38:30,416: Pipeline params :
+INFO: 2023-01-15 18:38:30,417: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:38:30,417: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:38:30,418: [PRE PROCESSING]
+INFO: 2023-01-15 18:38:30,541: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:39:01,421: Optimized n_comp for PLS 37
+INFO: 2023-01-15 18:39:01,424: [MODEL EVALUATION]
+INFO: 2023-01-15 18:39:01,873: Model loss : 0.42207050880411484
+INFO: 2023-01-15 18:39:01,874: Elapsed time for pipeline run : 31.46
+INFO: 2023-01-15 18:39:01,877: Pipeline end...
+INFO: 2023-01-15 18:39:01,879: ************************************
+INFO: 2023-01-15 18:39:01,886: ************************************
+INFO: 2023-01-15 18:39:01,890: Pipeline Start...
+INFO: 2023-01-15 18:39:01,891: Pipeline params :
+INFO: 2023-01-15 18:39:01,893: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:39:01,894: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:39:01,895: [PRE PROCESSING]
+INFO: 2023-01-15 18:39:02,340: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:39:33,819: Optimized n_comp for PLS 25
+INFO: 2023-01-15 18:39:33,820: [MODEL EVALUATION]
+INFO: 2023-01-15 18:39:34,170: Model loss : 0.4552549955302388
+INFO: 2023-01-15 18:39:34,173: Elapsed time for pipeline run : 32.29
+INFO: 2023-01-15 18:39:34,177: Pipeline end...
+INFO: 2023-01-15 18:39:34,184: ************************************
+INFO: 2023-01-15 18:41:37,799: ************************************
+INFO: 2023-01-15 18:41:37,800: Pipeline Start...
+INFO: 2023-01-15 18:41:37,800: Pipeline params :
+INFO: 2023-01-15 18:41:37,800: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:41:37,801: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:41:37,801: [PRE PROCESSING]
+INFO: 2023-01-15 18:41:37,946: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:42:18,769: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:42:18,773: [MODEL EVALUATION]
+INFO: 2023-01-15 18:42:19,300: Model loss : 0.4282183699972474
+INFO: 2023-01-15 18:42:19,302: Elapsed time for pipeline run : 41.5
+INFO: 2023-01-15 18:42:19,303: Pipeline end...
+INFO: 2023-01-15 18:42:19,305: ************************************
+INFO: 2023-01-15 18:42:19,308: ************************************
+INFO: 2023-01-15 18:42:19,311: Pipeline Start...
+INFO: 2023-01-15 18:42:19,315: Pipeline params :
+INFO: 2023-01-15 18:42:19,317: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:42:19,319: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:42:19,324: [PRE PROCESSING]
+INFO: 2023-01-15 18:42:19,782: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:43:00,724: Optimized n_comp for PLS 22
+INFO: 2023-01-15 18:43:00,727: [MODEL EVALUATION]
+INFO: 2023-01-15 18:43:01,066: Model loss : 0.47196412858873565
+INFO: 2023-01-15 18:43:01,067: Elapsed time for pipeline run : 41.76
+INFO: 2023-01-15 18:43:01,068: Pipeline end...
+INFO: 2023-01-15 18:43:01,069: ************************************
+INFO: 2023-01-15 18:45:10,206: ************************************
+INFO: 2023-01-15 18:45:10,207: Pipeline Start...
+INFO: 2023-01-15 18:45:10,207: Pipeline params :
+INFO: 2023-01-15 18:45:10,208: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:45:10,208: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:45:10,208: [PRE PROCESSING]
+INFO: 2023-01-15 18:45:10,359: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:45:43,237: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:45:43,239: [MODEL EVALUATION]
+INFO: 2023-01-15 18:45:43,785: Model loss : 0.44185128237410076
+INFO: 2023-01-15 18:45:43,787: Elapsed time for pipeline run : 33.58
+INFO: 2023-01-15 18:45:43,788: Pipeline end...
+INFO: 2023-01-15 18:45:43,796: ************************************
+INFO: 2023-01-15 18:45:43,797: ************************************
+INFO: 2023-01-15 18:45:43,800: Pipeline Start...
+INFO: 2023-01-15 18:45:43,804: Pipeline params :
+INFO: 2023-01-15 18:45:43,806: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:45:43,808: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:45:43,813: [PRE PROCESSING]
+INFO: 2023-01-15 18:45:44,281: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:46:16,897: Optimized n_comp for PLS 22
+INFO: 2023-01-15 18:46:16,900: [MODEL EVALUATION]
+INFO: 2023-01-15 18:46:17,221: Model loss : 0.49174311823257516
+INFO: 2023-01-15 18:46:17,223: Elapsed time for pipeline run : 33.43
+INFO: 2023-01-15 18:46:17,227: Pipeline end...
+INFO: 2023-01-15 18:46:17,228: ************************************
+INFO: 2023-01-15 18:46:42,342: ************************************
+INFO: 2023-01-15 18:46:42,343: Pipeline Start...
+INFO: 2023-01-15 18:46:42,343: Pipeline params :
+INFO: 2023-01-15 18:46:42,343: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:46:42,344: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:46:42,344: [PRE PROCESSING]
+INFO: 2023-01-15 18:46:42,492: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:47:11,129: Optimized n_comp for PLS 37
+INFO: 2023-01-15 18:47:11,132: [MODEL EVALUATION]
+INFO: 2023-01-15 18:47:11,478: Model loss : 0.45296587694180257
+INFO: 2023-01-15 18:47:11,483: Elapsed time for pipeline run : 29.13
+INFO: 2023-01-15 18:47:11,484: Pipeline end...
+INFO: 2023-01-15 18:47:11,485: ************************************
+INFO: 2023-01-15 18:47:11,486: ************************************
+INFO: 2023-01-15 18:47:11,487: Pipeline Start...
+INFO: 2023-01-15 18:47:11,488: Pipeline params :
+INFO: 2023-01-15 18:47:11,489: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:47:11,490: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:47:11,491: [PRE PROCESSING]
+INFO: 2023-01-15 18:47:11,904: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:47:40,893: Optimized n_comp for PLS 24
+INFO: 2023-01-15 18:47:40,894: [MODEL EVALUATION]
+INFO: 2023-01-15 18:47:41,142: Model loss : 0.5045237388489686
+INFO: 2023-01-15 18:47:41,147: Elapsed time for pipeline run : 29.66
+INFO: 2023-01-15 18:47:41,151: Pipeline end...
+INFO: 2023-01-15 18:47:41,157: ************************************
+INFO: 2023-01-15 18:49:43,400: ************************************
+INFO: 2023-01-15 18:49:43,401: Pipeline Start...
+INFO: 2023-01-15 18:49:43,401: Pipeline params :
+INFO: 2023-01-15 18:49:43,402: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:49:43,402: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:49:43,402: [PRE PROCESSING]
+INFO: 2023-01-15 18:50:03,015: Least MSE from SAVGOL loop run 1.7728680265582977
+INFO: 2023-01-15 18:50:03,016: Best window size 48
+INFO: 2023-01-15 18:50:03,017: Best polyorder 2
+INFO: 2023-01-15 18:50:03,017: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:50:44,330: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:50:44,332: [MODEL EVALUATION]
+INFO: 2023-01-15 18:50:44,777: Model loss : 0.4663863340921954
+INFO: 2023-01-15 18:50:44,780: Elapsed time for pipeline run : 61.38
+INFO: 2023-01-15 18:50:44,782: Pipeline end...
+INFO: 2023-01-15 18:50:44,786: ************************************
+INFO: 2023-01-15 18:50:44,790: ************************************
+INFO: 2023-01-15 18:50:44,795: Pipeline Start...
+INFO: 2023-01-15 18:50:44,798: Pipeline params :
+INFO: 2023-01-15 18:50:44,801: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:50:44,806: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:50:44,813: [PRE PROCESSING]
+INFO: 2023-01-15 18:50:45,096: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:51:30,966: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:51:30,968: [MODEL EVALUATION]
+INFO: 2023-01-15 18:51:31,830: Model loss : 0.4282183699972474
+INFO: 2023-01-15 18:51:31,833: Elapsed time for pipeline run : 47.04
+INFO: 2023-01-15 18:51:31,834: Pipeline end...
+INFO: 2023-01-15 18:51:31,835: ************************************
+INFO: 2023-01-15 18:51:31,837: ************************************
+INFO: 2023-01-15 18:51:31,838: Pipeline Start...
+INFO: 2023-01-15 18:51:31,839: Pipeline params :
+INFO: 2023-01-15 18:51:31,840: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:51:31,841: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:51:31,842: [PRE PROCESSING]
+INFO: 2023-01-15 18:51:32,259: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:52:20,500: Optimized n_comp for PLS 22
+INFO: 2023-01-15 18:52:20,501: [MODEL EVALUATION]
+INFO: 2023-01-15 18:52:21,059: Model loss : 0.47196412858873565
+INFO: 2023-01-15 18:52:21,061: Elapsed time for pipeline run : 49.22
+INFO: 2023-01-15 18:52:21,061: Pipeline end...
+INFO: 2023-01-15 18:52:21,062: ************************************
+INFO: 2023-01-15 18:52:21,064: ************************************
+INFO: 2023-01-15 18:52:21,064: Pipeline Start...
+INFO: 2023-01-15 18:52:21,065: Pipeline params :
+INFO: 2023-01-15 18:52:21,066: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:52:21,067: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:52:21,068: [PRE PROCESSING]
+INFO: 2023-01-15 18:52:45,796: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:53:29,934: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:53:29,936: [MODEL EVALUATION]
+INFO: 2023-01-15 18:53:30,853: Model loss : 0.46631112682346915
+INFO: 2023-01-15 18:53:30,858: Elapsed time for pipeline run : 69.8
+INFO: 2023-01-15 18:53:30,860: Pipeline end...
+INFO: 2023-01-15 18:53:30,862: ************************************
+INFO: 2023-01-15 18:53:30,865: ************************************
+INFO: 2023-01-15 18:53:30,870: Pipeline Start...
+INFO: 2023-01-15 18:53:30,873: Pipeline params :
+INFO: 2023-01-15 18:53:30,876: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:53:30,880: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:53:30,884: [PRE PROCESSING]
+INFO: 2023-01-15 18:53:52,403: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:54:37,063: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:54:37,067: [MODEL EVALUATION]
+INFO: 2023-01-15 18:54:37,537: Model loss : 0.5635335519191842
+INFO: 2023-01-15 18:54:37,540: Elapsed time for pipeline run : 66.68
+INFO: 2023-01-15 18:54:37,543: Pipeline end...
+INFO: 2023-01-15 18:54:37,546: ************************************
+INFO: 2023-01-15 18:55:04,392: ************************************
+INFO: 2023-01-15 18:55:04,393: Pipeline Start...
+INFO: 2023-01-15 18:55:04,393: Pipeline params :
+INFO: 2023-01-15 18:55:04,393: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:55:04,394: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:55:04,394: [PRE PROCESSING]
+INFO: 2023-01-15 18:55:21,764: Least MSE from SAVGOL loop run 1.7504918144318928
+INFO: 2023-01-15 18:55:21,769: Best window size 51
+INFO: 2023-01-15 18:55:21,771: Best polyorder 2
+INFO: 2023-01-15 18:55:21,773: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:55:58,663: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:55:58,667: [MODEL EVALUATION]
+INFO: 2023-01-15 18:55:59,041: Model loss : 0.488951737852502
+INFO: 2023-01-15 18:55:59,046: Elapsed time for pipeline run : 54.65
+INFO: 2023-01-15 18:55:59,047: Pipeline end...
+INFO: 2023-01-15 18:55:59,048: ************************************
+INFO: 2023-01-15 18:55:59,052: ************************************
+INFO: 2023-01-15 18:55:59,058: Pipeline Start...
+INFO: 2023-01-15 18:55:59,060: Pipeline params :
+INFO: 2023-01-15 18:55:59,062: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:55:59,064: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:55:59,068: [PRE PROCESSING]
+INFO: 2023-01-15 18:55:59,319: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:56:40,183: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:56:40,187: [MODEL EVALUATION]
+INFO: 2023-01-15 18:56:40,727: Model loss : 0.44185128237410076
+INFO: 2023-01-15 18:56:40,728: Elapsed time for pipeline run : 41.68
+INFO: 2023-01-15 18:56:40,729: Pipeline end...
+INFO: 2023-01-15 18:56:40,733: ************************************
+INFO: 2023-01-15 18:56:40,738: ************************************
+INFO: 2023-01-15 18:56:40,739: Pipeline Start...
+INFO: 2023-01-15 18:56:40,742: Pipeline params :
+INFO: 2023-01-15 18:56:40,745: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:56:40,749: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:56:40,752: [PRE PROCESSING]
+INFO: 2023-01-15 18:56:41,204: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:57:20,959: Optimized n_comp for PLS 22
+INFO: 2023-01-15 18:57:20,962: [MODEL EVALUATION]
+INFO: 2023-01-15 18:57:21,319: Model loss : 0.49174311823257516
+INFO: 2023-01-15 18:57:21,321: Elapsed time for pipeline run : 40.58
+INFO: 2023-01-15 18:57:21,321: Pipeline end...
+INFO: 2023-01-15 18:57:21,322: ************************************
+INFO: 2023-01-15 18:57:21,323: ************************************
+INFO: 2023-01-15 18:57:21,324: Pipeline Start...
+INFO: 2023-01-15 18:57:21,325: Pipeline params :
+INFO: 2023-01-15 18:57:21,326: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:57:21,327: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:57:21,327: [PRE PROCESSING]
+INFO: 2023-01-15 18:57:38,425: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:58:17,172: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:58:17,173: [MODEL EVALUATION]
+INFO: 2023-01-15 18:58:17,575: Model loss : 0.48364759898081205
+INFO: 2023-01-15 18:58:17,578: Elapsed time for pipeline run : 56.26
+INFO: 2023-01-15 18:58:17,581: Pipeline end...
+INFO: 2023-01-15 18:58:17,584: ************************************
+INFO: 2023-01-15 18:58:17,587: ************************************
+INFO: 2023-01-15 18:58:17,591: Pipeline Start...
+INFO: 2023-01-15 18:58:17,593: Pipeline params :
+INFO: 2023-01-15 18:58:17,596: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:58:17,599: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:58:17,602: [PRE PROCESSING]
+INFO: 2023-01-15 18:58:37,407: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 18:59:16,902: Optimized n_comp for PLS 39
+INFO: 2023-01-15 18:59:16,905: [MODEL EVALUATION]
+INFO: 2023-01-15 18:59:17,312: Model loss : 0.5995145026876472
+INFO: 2023-01-15 18:59:17,315: Elapsed time for pipeline run : 59.73
+INFO: 2023-01-15 18:59:17,315: Pipeline end...
+INFO: 2023-01-15 18:59:17,317: ************************************
+INFO: 2023-01-15 18:59:51,847: ************************************
+INFO: 2023-01-15 18:59:51,848: Pipeline Start...
+INFO: 2023-01-15 18:59:51,848: Pipeline params :
+INFO: 2023-01-15 18:59:51,849: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 18:59:51,849: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 18:59:51,850: [PRE PROCESSING]
+INFO: 2023-01-15 19:00:04,388: Least MSE from SAVGOL loop run 1.7089964516658316
+INFO: 2023-01-15 19:00:04,391: Best window size 48
+INFO: 2023-01-15 19:00:04,395: Best polyorder 2
+INFO: 2023-01-15 19:00:04,397: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 19:00:32,532: Optimized n_comp for PLS 39
+INFO: 2023-01-15 19:00:32,534: [MODEL EVALUATION]
+INFO: 2023-01-15 19:00:33,194: Model loss : 0.5084182797854806
+INFO: 2023-01-15 19:00:33,196: Elapsed time for pipeline run : 41.35
+INFO: 2023-01-15 19:00:33,196: Pipeline end...
+INFO: 2023-01-15 19:00:33,197: ************************************
+INFO: 2023-01-15 19:00:33,198: ************************************
+INFO: 2023-01-15 19:00:33,199: Pipeline Start...
+INFO: 2023-01-15 19:00:33,200: Pipeline params :
+INFO: 2023-01-15 19:00:33,201: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 19:00:33,202: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 19:00:33,231: [PRE PROCESSING]
+INFO: 2023-01-15 19:00:46,797: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 19:01:16,140: Optimized n_comp for PLS 39
+INFO: 2023-01-15 19:01:16,145: [MODEL EVALUATION]
+INFO: 2023-01-15 19:01:16,401: Model loss : 0.5015821758938097
+INFO: 2023-01-15 19:01:16,411: Elapsed time for pipeline run : 43.21
+INFO: 2023-01-15 19:01:16,415: Pipeline end...
+INFO: 2023-01-15 19:01:16,418: ************************************
+INFO: 2023-01-15 19:01:16,420: ************************************
+INFO: 2023-01-15 19:01:16,421: Pipeline Start...
+INFO: 2023-01-15 19:01:16,422: Pipeline params :
+INFO: 2023-01-15 19:01:16,424: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 19:01:16,425: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 19:01:16,426: [PRE PROCESSING]
+INFO: 2023-01-15 19:01:30,506: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 19:01:58,806: Optimized n_comp for PLS 39
+INFO: 2023-01-15 19:01:58,808: [MODEL EVALUATION]
+INFO: 2023-01-15 19:01:59,105: Model loss : 0.6980721994868228
+INFO: 2023-01-15 19:01:59,107: Elapsed time for pipeline run : 42.69
+INFO: 2023-01-15 19:01:59,108: Pipeline end...
+INFO: 2023-01-15 19:01:59,111: ************************************
+INFO: 2023-01-15 20:02:00,291: ************************************
+INFO: 2023-01-15 20:02:00,292: Pipeline Start...
+INFO: 2023-01-15 20:02:00,292: Pipeline params :
+INFO: 2023-01-15 20:02:00,293: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:02:00,293: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 20:02:00,293: [PRE PROCESSING]
+INFO: 2023-01-15 20:02:12,645: Least MSE from SAVGOL loop run 1.7089964516658316
+INFO: 2023-01-15 20:02:12,649: Best window size 48
+INFO: 2023-01-15 20:02:12,651: Best polyorder 2
+INFO: 2023-01-15 20:02:12,654: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:02:39,673: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:02:39,675: [MODEL EVALUATION]
+INFO: 2023-01-15 20:02:39,991: Model loss : 0.5084182797854806
+INFO: 2023-01-15 20:02:39,996: Elapsed time for pipeline run : 39.71
+INFO: 2023-01-15 20:02:39,996: Pipeline end...
+INFO: 2023-01-15 20:02:40,000: ************************************
+INFO: 2023-01-15 20:02:40,001: ************************************
+INFO: 2023-01-15 20:02:40,003: Pipeline Start...
+INFO: 2023-01-15 20:02:40,005: Pipeline params :
+INFO: 2023-01-15 20:02:40,007: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:02:40,008: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 20:02:40,009: [PRE PROCESSING]
+INFO: 2023-01-15 20:02:40,258: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:03:08,281: Optimized n_comp for PLS 37
+INFO: 2023-01-15 20:03:08,282: [MODEL EVALUATION]
+INFO: 2023-01-15 20:03:09,224: Model loss : 0.45296587694180257
+INFO: 2023-01-15 20:03:09,227: Elapsed time for pipeline run : 29.23
+INFO: 2023-01-15 20:03:09,227: Pipeline end...
+INFO: 2023-01-15 20:03:09,228: ************************************
+INFO: 2023-01-15 20:03:09,229: ************************************
+INFO: 2023-01-15 20:03:09,230: Pipeline Start...
+INFO: 2023-01-15 20:03:09,231: Pipeline params :
+INFO: 2023-01-15 20:03:09,233: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:03:09,234: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 20:03:09,235: [PRE PROCESSING]
+INFO: 2023-01-15 20:03:09,663: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:03:38,264: Optimized n_comp for PLS 24
+INFO: 2023-01-15 20:03:38,268: [MODEL EVALUATION]
+INFO: 2023-01-15 20:03:38,512: Model loss : 0.5045237388489686
+INFO: 2023-01-15 20:03:38,521: Elapsed time for pipeline run : 29.29
+INFO: 2023-01-15 20:03:38,526: Pipeline end...
+INFO: 2023-01-15 20:03:38,529: ************************************
+INFO: 2023-01-15 20:03:38,533: ************************************
+INFO: 2023-01-15 20:03:38,536: Pipeline Start...
+INFO: 2023-01-15 20:03:38,537: Pipeline params :
+INFO: 2023-01-15 20:03:38,538: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:03:38,541: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 20:03:38,553: [PRE PROCESSING]
+INFO: 2023-01-15 20:03:50,799: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:04:18,509: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:04:18,510: [MODEL EVALUATION]
+INFO: 2023-01-15 20:04:18,789: Model loss : 0.5015821758938023
+INFO: 2023-01-15 20:04:18,792: Elapsed time for pipeline run : 40.26
+INFO: 2023-01-15 20:04:18,795: Pipeline end...
+INFO: 2023-01-15 20:04:18,799: ************************************
+INFO: 2023-01-15 20:04:18,804: ************************************
+INFO: 2023-01-15 20:04:18,810: Pipeline Start...
+INFO: 2023-01-15 20:04:18,825: Pipeline params :
+INFO: 2023-01-15 20:04:18,827: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:04:18,829: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 20:04:18,830: [PRE PROCESSING]
+INFO: 2023-01-15 20:04:31,554: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:04:59,485: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:04:59,486: [MODEL EVALUATION]
+INFO: 2023-01-15 20:04:59,790: Model loss : 0.6980721994898063
+INFO: 2023-01-15 20:04:59,792: Elapsed time for pipeline run : 40.99
+INFO: 2023-01-15 20:04:59,793: Pipeline end...
+INFO: 2023-01-15 20:04:59,794: ************************************
+INFO: 2023-01-15 20:07:17,009: ************************************
+INFO: 2023-01-15 20:07:17,009: ************************************
+INFO: 2023-01-15 20:07:17,010: Pipeline Start...
+INFO: 2023-01-15 20:07:17,010: Pipeline Start...
+INFO: 2023-01-15 20:07:17,011: Pipeline params :
+INFO: 2023-01-15 20:07:17,011: Pipeline params :
+INFO: 2023-01-15 20:07:17,011: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:07:17,011: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:07:17,011: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:07:17,011: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:07:17,012: [PRE PROCESSING]
+INFO: 2023-01-15 20:07:17,012: [PRE PROCESSING]
+INFO: 2023-01-15 20:07:29,467: Least MSE from SAVGOL loop run 1.7089964516658316
+INFO: 2023-01-15 20:07:29,467: Least MSE from SAVGOL loop run 1.7089964516658316
+INFO: 2023-01-15 20:07:29,469: Best window size 48
+INFO: 2023-01-15 20:07:29,469: Best window size 48
+INFO: 2023-01-15 20:07:29,471: Best polyorder 2
+INFO: 2023-01-15 20:07:29,471: Best polyorder 2
+INFO: 2023-01-15 20:07:29,475: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:07:29,475: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:07:56,724: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:07:56,724: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:07:56,730: [MODEL EVALUATION]
+INFO: 2023-01-15 20:07:56,730: [MODEL EVALUATION]
+INFO: 2023-01-15 20:07:57,141: Model loss : 0.5084182797854806
+INFO: 2023-01-15 20:07:57,141: Model loss : 0.5084182797854806
+INFO: 2023-01-15 20:07:57,143: Elapsed time for pipeline run : 40.13
+INFO: 2023-01-15 20:07:57,143: Elapsed time for pipeline run : 40.13
+INFO: 2023-01-15 20:07:57,144: Pipeline end...
+INFO: 2023-01-15 20:07:57,144: Pipeline end...
+INFO: 2023-01-15 20:07:57,145: ************************************
+INFO: 2023-01-15 20:07:57,145: ************************************
+INFO: 2023-01-15 20:07:57,147: ************************************
+INFO: 2023-01-15 20:07:57,147: ************************************
+INFO: 2023-01-15 20:07:57,148: Pipeline Start...
+INFO: 2023-01-15 20:07:57,148: Pipeline Start...
+INFO: 2023-01-15 20:07:57,149: Pipeline params :
+INFO: 2023-01-15 20:07:57,149: Pipeline params :
+INFO: 2023-01-15 20:07:57,150: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:07:57,150: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:07:57,151: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:07:57,151: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:07:57,152: [PRE PROCESSING]
+INFO: 2023-01-15 20:07:57,152: [PRE PROCESSING]
+INFO: 2023-01-15 20:07:57,410: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:07:57,410: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:08:27,177: Optimized n_comp for PLS 37
+INFO: 2023-01-15 20:08:27,177: Optimized n_comp for PLS 37
+INFO: 2023-01-15 20:08:27,181: [MODEL EVALUATION]
+INFO: 2023-01-15 20:08:27,181: [MODEL EVALUATION]
+INFO: 2023-01-15 20:08:28,121: Model loss : 0.45296587694180257
+INFO: 2023-01-15 20:08:28,121: Model loss : 0.45296587694180257
+INFO: 2023-01-15 20:08:28,123: Elapsed time for pipeline run : 30.98
+INFO: 2023-01-15 20:08:28,123: Elapsed time for pipeline run : 30.98
+INFO: 2023-01-15 20:08:28,124: Pipeline end...
+INFO: 2023-01-15 20:08:28,124: Pipeline end...
+INFO: 2023-01-15 20:08:28,125: ************************************
+INFO: 2023-01-15 20:08:28,125: ************************************
+INFO: 2023-01-15 20:08:28,126: ************************************
+INFO: 2023-01-15 20:08:28,126: ************************************
+INFO: 2023-01-15 20:08:28,127: Pipeline Start...
+INFO: 2023-01-15 20:08:28,127: Pipeline Start...
+INFO: 2023-01-15 20:08:28,128: Pipeline params :
+INFO: 2023-01-15 20:08:28,128: Pipeline params :
+INFO: 2023-01-15 20:08:28,129: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:08:28,129: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:08:28,130: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:08:28,130: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
+INFO: 2023-01-15 20:08:28,132: [PRE PROCESSING]
+INFO: 2023-01-15 20:08:28,132: [PRE PROCESSING]
+INFO: 2023-01-15 20:08:28,556: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:08:28,556: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:13:30,665: ************************************
+INFO: 2023-01-15 20:13:30,665: ************************************
+INFO: 2023-01-15 20:13:30,666: Pipeline Start...
+INFO: 2023-01-15 20:13:30,666: Pipeline Start...
+INFO: 2023-01-15 20:13:30,667: Pipeline params :
+INFO: 2023-01-15 20:13:30,667: Pipeline params :
+INFO: 2023-01-15 20:13:30,668: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:13:30,668: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:13:30,668: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 20
+INFO: 2023-01-15 20:13:30,668: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 20
+INFO: 2023-01-15 20:13:30,668: [PRE PROCESSING]
+INFO: 2023-01-15 20:13:30,668: [PRE PROCESSING]
+INFO: 2023-01-15 20:13:30,816: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:13:30,816: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:14:06,941: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:14:06,941: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:14:06,951: [MODEL EVALUATION]
+INFO: 2023-01-15 20:14:06,951: [MODEL EVALUATION]
+INFO: 2023-01-15 20:14:07,889: Model loss : 0.44185128237410076
+INFO: 2023-01-15 20:14:07,889: Model loss : 0.44185128237410076
+INFO: 2023-01-15 20:14:07,892: Elapsed time for pipeline run : 37.23
+INFO: 2023-01-15 20:14:07,892: Elapsed time for pipeline run : 37.23
+INFO: 2023-01-15 20:14:07,893: Pipeline end...
+INFO: 2023-01-15 20:14:07,893: Pipeline end...
+INFO: 2023-01-15 20:14:07,895: ************************************
+INFO: 2023-01-15 20:14:07,895: ************************************
+INFO: 2023-01-15 20:14:36,671: ************************************
+INFO: 2023-01-15 20:14:36,671: ************************************
+INFO: 2023-01-15 20:14:36,672: Pipeline Start...
+INFO: 2023-01-15 20:14:36,672: Pipeline Start...
+INFO: 2023-01-15 20:14:36,672: Pipeline params :
+INFO: 2023-01-15 20:14:36,672: Pipeline params :
+INFO: 2023-01-15 20:14:36,672: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:14:36,672: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 20:14:36,673: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 50
+INFO: 2023-01-15 20:14:36,673: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 50
+INFO: 2023-01-15 20:14:36,673: [PRE PROCESSING]
+INFO: 2023-01-15 20:14:36,673: [PRE PROCESSING]
+INFO: 2023-01-15 20:14:36,819: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:14:36,819: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 20:15:13,919: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:15:13,919: Optimized n_comp for PLS 39
+INFO: 2023-01-15 20:15:13,920: [MODEL EVALUATION]
+INFO: 2023-01-15 20:15:13,920: [MODEL EVALUATION]
+INFO: 2023-01-15 20:15:14,475: Model loss : 0.44185128237410076
+INFO: 2023-01-15 20:15:14,475: Model loss : 0.44185128237410076
+INFO: 2023-01-15 20:15:14,481: Elapsed time for pipeline run : 37.81
+INFO: 2023-01-15 20:15:14,481: Elapsed time for pipeline run : 37.81
+INFO: 2023-01-15 20:15:14,486: Pipeline end...
+INFO: 2023-01-15 20:15:14,486: Pipeline end...
+INFO: 2023-01-15 20:15:14,488: ************************************
+INFO: 2023-01-15 20:15:14,488: ************************************
