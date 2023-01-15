@@ -1,2 +1,8 @@
 # All CSV files
 *.csv
+
+# All folders
+*/
+
+# Files
+.DS_Store

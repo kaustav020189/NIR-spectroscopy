@@ -1,48 +1,506 @@
-INFO: 2022-12-16 21:41:55,796: ************************************
-INFO: 2022-12-16 21:41:55,796: ************************************
-INFO: 2022-12-16 21:41:55,796: ************************************
-INFO: 2022-12-16 21:41:55,796: Pipeline Start...
-INFO: 2022-12-16 21:41:55,796: Pipeline Start...
-INFO: 2022-12-16 21:41:55,796: Pipeline Start...
-INFO: 2022-12-16 21:41:55,797: Pipeline params :
-INFO: 2022-12-16 21:41:55,797: Pipeline params :
-INFO: 2022-12-16 21:41:55,797: Pipeline params :
-INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
-INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
-INFO: 2022-12-16 21:41:55,797: Data : 2022_07_13.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
-INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
-INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
-INFO: 2022-12-16 21:41:55,797: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 10
-INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
-INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
-INFO: 2022-12-16 21:41:55,797: [PRE PROCESSING]
-INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
-INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
-INFO: 2022-12-16 21:42:05,328: Least MSE from SAVGOL loop run 4.480197462136637
-INFO: 2022-12-16 21:42:05,329: Best window size 3
-INFO: 2022-12-16 21:42:05,329: Best window size 3
-INFO: 2022-12-16 21:42:05,329: Best window size 3
-INFO: 2022-12-16 21:42:05,330: Best polyorder 2
-INFO: 2022-12-16 21:42:05,330: Best polyorder 2
-INFO: 2022-12-16 21:42:05,330: Best polyorder 2
-INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
-INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
-INFO: 2022-12-16 21:42:05,334: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
-INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
-INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
-INFO: 2022-12-16 21:42:28,454: Optimized n_comp for PLS 12
-INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
-INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
-INFO: 2022-12-16 21:42:28,455: [MODEL EVALUATION]
-INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
-INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
-INFO: 2022-12-16 21:42:28,841: Model loss : 0.25408611427628913
-INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
-INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
-INFO: 2022-12-16 21:42:28,843: Elapsed time for pipeline run : 33.05
-INFO: 2022-12-16 21:42:28,844: Pipeline end...
-INFO: 2022-12-16 21:42:28,844: Pipeline end...
-INFO: 2022-12-16 21:42:28,844: Pipeline end...
-INFO: 2022-12-16 21:42:28,845: ************************************
-INFO: 2022-12-16 21:42:28,845: ************************************
-INFO: 2022-12-16 21:42:28,845: ************************************
+INFO: 2023-01-13 23:20:21,042: ************************************
+INFO: 2023-01-13 23:20:21,043: Pipeline Start...
+INFO: 2023-01-13 23:20:21,043: Pipeline params :
+INFO: 2023-01-13 23:20:21,044: Data : 2022_06_29.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:21,044: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:21,044: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:25,598: Least MSE from SAVGOL loop run 1.9060651086990832
+INFO: 2023-01-13 23:20:25,599: Best window size 9
+INFO: 2023-01-13 23:20:25,601: Best polyorder 8
+INFO: 2023-01-13 23:20:25,605: Elapsed time for pipeline run : 4.56
+INFO: 2023-01-13 23:20:25,611: Pipeline end...
+INFO: 2023-01-13 23:20:25,614: ************************************
+INFO: 2023-01-13 23:20:25,616: ************************************
+INFO: 2023-01-13 23:20:25,619: Pipeline Start...
+INFO: 2023-01-13 23:20:25,620: Pipeline params :
+INFO: 2023-01-13 23:20:25,621: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:25,622: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:25,625: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:30,018: Least MSE from SAVGOL loop run 1.0526063565890384
+INFO: 2023-01-13 23:20:30,019: Best window size 48
+INFO: 2023-01-13 23:20:30,019: Best polyorder 2
+INFO: 2023-01-13 23:20:30,020: Elapsed time for pipeline run : 4.4
+INFO: 2023-01-13 23:20:30,021: Pipeline end...
+INFO: 2023-01-13 23:20:30,021: ************************************
+INFO: 2023-01-13 23:20:30,022: ************************************
+INFO: 2023-01-13 23:20:30,023: Pipeline Start...
+INFO: 2023-01-13 23:20:30,025: Pipeline params :
+INFO: 2023-01-13 23:20:30,026: Data : 2022_06_29.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:30,027: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:30,028: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:33,329: Least MSE from SAVGOL loop run 1.2102311551519658
+INFO: 2023-01-13 23:20:33,331: Best window size 51
+INFO: 2023-01-13 23:20:33,332: Best polyorder 16
+INFO: 2023-01-13 23:20:33,332: Elapsed time for pipeline run : 3.31
+INFO: 2023-01-13 23:20:33,336: Pipeline end...
+INFO: 2023-01-13 23:20:33,342: ************************************
+INFO: 2023-01-13 23:20:33,347: ************************************
+INFO: 2023-01-13 23:20:33,350: Pipeline Start...
+INFO: 2023-01-13 23:20:33,352: Pipeline params :
+INFO: 2023-01-13 23:20:33,355: Data : 2022_06_29.csv , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:33,360: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:33,366: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:33,423: Elapsed time for pipeline run : 0.08
+INFO: 2023-01-13 23:20:33,424: Pipeline end...
+INFO: 2023-01-13 23:20:33,426: ************************************
+INFO: 2023-01-13 23:20:33,427: ************************************
+INFO: 2023-01-13 23:20:33,428: Pipeline Start...
+INFO: 2023-01-13 23:20:33,429: Pipeline params :
+INFO: 2023-01-13 23:20:33,430: Data : 2022_06_29.csv , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:33,431: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:33,431: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:33,571: Elapsed time for pipeline run : 0.14
+INFO: 2023-01-13 23:20:33,572: Pipeline end...
+INFO: 2023-01-13 23:20:33,573: ************************************
+INFO: 2023-01-13 23:20:33,574: ************************************
+INFO: 2023-01-13 23:20:33,574: Pipeline Start...
+INFO: 2023-01-13 23:20:33,576: Pipeline params :
+INFO: 2023-01-13 23:20:33,577: Data : 2022_06_29.csv , Preprocessor : savgol0+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:33,578: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:33,578: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:38,447: Elapsed time for pipeline run : 4.87
+INFO: 2023-01-13 23:20:38,448: Pipeline end...
+INFO: 2023-01-13 23:20:38,449: ************************************
+INFO: 2023-01-13 23:20:38,452: ************************************
+INFO: 2023-01-13 23:20:38,456: Pipeline Start...
+INFO: 2023-01-13 23:20:38,463: Pipeline params :
+INFO: 2023-01-13 23:20:38,465: Data : 2022_06_29.csv , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:38,468: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:38,469: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:42,126: Elapsed time for pipeline run : 3.67
+INFO: 2023-01-13 23:20:42,126: Pipeline end...
+INFO: 2023-01-13 23:20:42,127: ************************************
+INFO: 2023-01-13 23:20:42,129: ************************************
+INFO: 2023-01-13 23:20:42,129: Pipeline Start...
+INFO: 2023-01-13 23:20:42,130: Pipeline params :
+INFO: 2023-01-13 23:20:42,131: Data : 2022_06_29.csv , Preprocessor : savgol2+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:42,132: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:42,133: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:46,068: Elapsed time for pipeline run : 3.94
+INFO: 2023-01-13 23:20:46,069: Pipeline end...
+INFO: 2023-01-13 23:20:46,071: ************************************
+INFO: 2023-01-13 23:20:46,073: ************************************
+INFO: 2023-01-13 23:20:46,081: Pipeline Start...
+INFO: 2023-01-13 23:20:46,084: Pipeline params :
+INFO: 2023-01-13 23:20:46,086: Data : 2022_06_29.csv , Preprocessor : savgol0+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:46,088: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:46,091: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:50,675: Elapsed time for pipeline run : 4.6
+INFO: 2023-01-13 23:20:50,676: Pipeline end...
+INFO: 2023-01-13 23:20:50,679: ************************************
+INFO: 2023-01-13 23:20:50,683: ************************************
+INFO: 2023-01-13 23:20:50,687: Pipeline Start...
+INFO: 2023-01-13 23:20:50,688: Pipeline params :
+INFO: 2023-01-13 23:20:50,690: Data : 2022_06_29.csv , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:50,695: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:50,699: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:54,121: Elapsed time for pipeline run : 3.44
+INFO: 2023-01-13 23:20:54,122: Pipeline end...
+INFO: 2023-01-13 23:20:54,123: ************************************
+INFO: 2023-01-13 23:20:54,126: ************************************
+INFO: 2023-01-13 23:20:54,132: Pipeline Start...
+INFO: 2023-01-13 23:20:54,135: Pipeline params :
+INFO: 2023-01-13 23:20:54,137: Data : 2022_06_29.csv , Preprocessor : savgol2+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-13 23:20:54,142: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-13 23:20:54,143: [PRE PROCESSING]
+INFO: 2023-01-13 23:20:58,858: Elapsed time for pipeline run : 4.73
+INFO: 2023-01-13 23:20:58,859: Pipeline end...
+INFO: 2023-01-13 23:20:58,860: ************************************
+INFO: 2023-01-14 13:28:04,710: ************************************
+INFO: 2023-01-14 13:28:04,711: Pipeline Start...
+INFO: 2023-01-14 13:28:04,711: Pipeline params :
+INFO: 2023-01-14 13:28:04,712: Data : 2022_06_29.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:04,712: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:28:04,713: [PRE PROCESSING]
+INFO: 2023-01-14 13:28:09,449: Least MSE from SAVGOL loop run 1.9060651086990832
+INFO: 2023-01-14 13:28:09,452: Best window size 9
+INFO: 2023-01-14 13:28:09,453: Best polyorder 8
+INFO: 2023-01-14 13:28:09,459: Elapsed time for pipeline run : 4.75
+INFO: 2023-01-14 13:28:09,463: Pipeline end...
+INFO: 2023-01-14 13:28:09,467: ************************************
+INFO: 2023-01-14 13:28:09,476: ************************************
+INFO: 2023-01-14 13:28:09,491: Pipeline Start...
+INFO: 2023-01-14 13:28:09,512: Pipeline params :
+INFO: 2023-01-14 13:28:09,524: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:09,525: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:28:09,526: [PRE PROCESSING]
+INFO: 2023-01-14 13:28:13,029: Least MSE from SAVGOL loop run 1.0526063565890384
+INFO: 2023-01-14 13:28:13,030: Best window size 48
+INFO: 2023-01-14 13:28:13,031: Best polyorder 2
+INFO: 2023-01-14 13:28:13,034: Elapsed time for pipeline run : 3.56
+INFO: 2023-01-14 13:28:13,036: Pipeline end...
+INFO: 2023-01-14 13:28:13,037: ************************************
+INFO: 2023-01-14 13:28:28,661: ************************************
+INFO: 2023-01-14 13:28:28,661: Pipeline Start...
+INFO: 2023-01-14 13:28:28,662: Pipeline params :
+INFO: 2023-01-14 13:28:28,663: Data : 2022_06_29.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:28,663: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:28:28,664: [PRE PROCESSING]
+INFO: 2023-01-14 13:28:32,651: Least MSE from SAVGOL loop run 1.9060651086990832
+INFO: 2023-01-14 13:28:32,652: Best window size 9
+INFO: 2023-01-14 13:28:32,653: Best polyorder 8
+INFO: 2023-01-14 13:28:32,661: Elapsed time for pipeline run : 4.0
+INFO: 2023-01-14 13:28:32,664: Pipeline end...
+INFO: 2023-01-14 13:28:32,665: ************************************
+INFO: 2023-01-14 13:28:32,675: ************************************
+INFO: 2023-01-14 13:28:32,678: Pipeline Start...
+INFO: 2023-01-14 13:28:32,680: Pipeline params :
+INFO: 2023-01-14 13:28:32,696: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:32,700: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:28:32,702: [PRE PROCESSING]
+INFO: 2023-01-14 13:28:37,276: Least MSE from SAVGOL loop run 1.0526063565890384
+INFO: 2023-01-14 13:28:37,278: Best window size 48
+INFO: 2023-01-14 13:28:37,281: Best polyorder 2
+INFO: 2023-01-14 13:28:37,284: Elapsed time for pipeline run : 4.61
+INFO: 2023-01-14 13:28:37,287: Pipeline end...
+INFO: 2023-01-14 13:28:37,291: ************************************
+INFO: 2023-01-14 13:28:37,313: ************************************
+INFO: 2023-01-14 13:28:37,331: Pipeline Start...
+INFO: 2023-01-14 13:28:37,333: Pipeline params :
+INFO: 2023-01-14 13:28:37,334: Data : 2022_06_29.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:37,335: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:28:37,336: [PRE PROCESSING]
+INFO: 2023-01-14 13:28:41,907: Least MSE from SAVGOL loop run 1.2102311551519658
+INFO: 2023-01-14 13:28:41,908: Best window size 51
+INFO: 2023-01-14 13:28:41,909: Best polyorder 16
+INFO: 2023-01-14 13:28:41,909: Elapsed time for pipeline run : 4.6
+INFO: 2023-01-14 13:28:41,910: Pipeline end...
+INFO: 2023-01-14 13:28:41,911: ************************************
+INFO: 2023-01-14 13:28:59,267: ************************************
+INFO: 2023-01-14 13:28:59,269: Pipeline Start...
+INFO: 2023-01-14 13:28:59,270: Pipeline params :
+INFO: 2023-01-14 13:28:59,270: Data : 2022_06_29.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:28:59,271: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:29:00,412: [PRE PROCESSING]
+INFO: 2023-01-14 13:29:04,119: Least MSE from SAVGOL loop run 1.9060651086990832
+INFO: 2023-01-14 13:29:04,137: Best window size 9
+INFO: 2023-01-14 13:29:04,138: Best polyorder 8
+INFO: 2023-01-14 13:29:05,101: Elapsed time for pipeline run : 5.83
+INFO: 2023-01-14 13:29:05,102: Pipeline end...
+INFO: 2023-01-14 13:29:05,102: ************************************
+INFO: 2023-01-14 13:29:05,102: ************************************
+INFO: 2023-01-14 13:29:05,102: Pipeline Start...
+INFO: 2023-01-14 13:29:05,103: Pipeline params :
+INFO: 2023-01-14 13:29:05,103: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:29:05,103: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:29:06,009: [PRE PROCESSING]
+INFO: 2023-01-14 13:29:10,503: Least MSE from SAVGOL loop run 1.0526063565890384
+INFO: 2023-01-14 13:29:10,507: Best window size 48
+INFO: 2023-01-14 13:29:10,514: Best polyorder 2
+INFO: 2023-01-14 13:29:11,274: Elapsed time for pipeline run : 6.17
+INFO: 2023-01-14 13:29:11,275: Pipeline end...
+INFO: 2023-01-14 13:29:11,275: ************************************
+INFO: 2023-01-14 13:29:11,275: ************************************
+INFO: 2023-01-14 13:29:11,276: Pipeline Start...
+INFO: 2023-01-14 13:29:11,276: Pipeline params :
+INFO: 2023-01-14 13:29:11,276: Data : 2022_06_29.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:29:11,277: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:29:12,244: [PRE PROCESSING]
+INFO: 2023-01-14 13:29:17,208: Least MSE from SAVGOL loop run 1.2102311551519658
+INFO: 2023-01-14 13:29:17,213: Best window size 51
+INFO: 2023-01-14 13:29:17,226: Best polyorder 16
+INFO: 2023-01-14 13:29:17,913: Elapsed time for pipeline run : 6.64
+INFO: 2023-01-14 13:29:17,913: Pipeline end...
+INFO: 2023-01-14 13:29:17,913: ************************************
+INFO: 2023-01-14 13:47:01,577: ************************************
+INFO: 2023-01-14 13:47:01,577: Pipeline Start...
+INFO: 2023-01-14 13:47:01,578: Pipeline params :
+INFO: 2023-01-14 13:47:01,578: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:47:01,579: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:47:01,579: [PRE PROCESSING]
+INFO: 2023-01-14 13:47:21,411: Least MSE from SAVGOL loop run 9.577398051746684
+INFO: 2023-01-14 13:47:21,412: Best window size 9
+INFO: 2023-01-14 13:47:21,413: Best polyorder 8
+INFO: 2023-01-14 13:47:21,414: Elapsed time for pipeline run : 19.84
+INFO: 2023-01-14 13:47:21,416: Pipeline end...
+INFO: 2023-01-14 13:47:21,417: ************************************
+INFO: 2023-01-14 13:47:21,418: ************************************
+INFO: 2023-01-14 13:47:21,419: Pipeline Start...
+INFO: 2023-01-14 13:47:21,419: Pipeline params :
+INFO: 2023-01-14 13:47:21,420: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:47:21,421: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:47:21,422: [PRE PROCESSING]
+INFO: 2023-01-14 13:47:40,836: Least MSE from SAVGOL loop run 1.7728680265582977
+INFO: 2023-01-14 13:47:40,837: Best window size 48
+INFO: 2023-01-14 13:47:40,840: Best polyorder 2
+INFO: 2023-01-14 13:47:40,843: Elapsed time for pipeline run : 19.43
+INFO: 2023-01-14 13:47:40,849: Pipeline end...
+INFO: 2023-01-14 13:47:40,851: ************************************
+INFO: 2023-01-14 13:47:40,853: ************************************
+INFO: 2023-01-14 13:47:40,859: Pipeline Start...
+INFO: 2023-01-14 13:47:40,863: Pipeline params :
+INFO: 2023-01-14 13:47:40,869: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_24.csv', '2022_06_29.csv'] , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-14 13:47:40,884: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 13:47:40,898: [PRE PROCESSING]
+INFO: 2023-01-14 13:48:01,256: Least MSE from SAVGOL loop run 2.074156325546647
+INFO: 2023-01-14 13:48:01,257: Best window size 51
+INFO: 2023-01-14 13:48:01,258: Best polyorder 16
+INFO: 2023-01-14 13:48:01,261: Elapsed time for pipeline run : 20.41
+INFO: 2023-01-14 13:48:01,271: Pipeline end...
+INFO: 2023-01-14 13:48:01,275: ************************************
+INFO: 2023-01-14 17:40:16,180: ************************************
+INFO: 2023-01-14 17:40:16,181: Pipeline Start...
+INFO: 2023-01-14 17:40:16,181: Pipeline params :
+INFO: 2023-01-14 17:40:16,182: Data : ['2022_07_13.csv', '2022_06_22.csv'] , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:40:16,183: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:40:16,183: [PRE PROCESSING]
+INFO: 2023-01-14 17:40:28,461: Least MSE from SAVGOL loop run 8.897056596473952
+INFO: 2023-01-14 17:40:28,462: Best window size 3
+INFO: 2023-01-14 17:40:28,465: Best polyorder 2
+INFO: 2023-01-14 17:40:28,470: Elapsed time for pipeline run : 12.29
+INFO: 2023-01-14 17:40:28,472: Pipeline end...
+INFO: 2023-01-14 17:40:28,476: ************************************
+INFO: 2023-01-14 17:40:28,480: ************************************
+INFO: 2023-01-14 17:40:28,482: Pipeline Start...
+INFO: 2023-01-14 17:40:28,486: Pipeline params :
+INFO: 2023-01-14 17:40:28,490: Data : ['2022_07_13.csv', '2022_06_22.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:40:28,496: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:40:28,503: [PRE PROCESSING]
+INFO: 2023-01-14 17:40:39,626: Least MSE from SAVGOL loop run 1.321056300775495
+INFO: 2023-01-14 17:40:39,627: Best window size 27
+INFO: 2023-01-14 17:40:39,628: Best polyorder 2
+INFO: 2023-01-14 17:40:39,631: Elapsed time for pipeline run : 11.15
+INFO: 2023-01-14 17:40:39,637: Pipeline end...
+INFO: 2023-01-14 17:40:39,640: ************************************
+INFO: 2023-01-14 17:40:39,644: ************************************
+INFO: 2023-01-14 17:40:39,646: Pipeline Start...
+INFO: 2023-01-14 17:40:39,648: Pipeline params :
+INFO: 2023-01-14 17:40:39,657: Data : ['2022_07_13.csv', '2022_06_22.csv'] , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:40:39,661: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:40:39,669: [PRE PROCESSING]
+INFO: 2023-01-14 17:40:52,231: Least MSE from SAVGOL loop run 1.6770639605999966
+INFO: 2023-01-14 17:40:52,234: Best window size 51
+INFO: 2023-01-14 17:40:52,235: Best polyorder 16
+INFO: 2023-01-14 17:40:52,238: Elapsed time for pipeline run : 12.59
+INFO: 2023-01-14 17:40:52,245: Pipeline end...
+INFO: 2023-01-14 17:40:52,249: ************************************
+INFO: 2023-01-14 17:41:29,986: ************************************
+INFO: 2023-01-14 17:41:29,986: Pipeline Start...
+INFO: 2023-01-14 17:41:29,986: Pipeline params :
+INFO: 2023-01-14 17:41:29,987: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_29.csv'] , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:41:29,987: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:41:29,987: [PRE PROCESSING]
+INFO: 2023-01-14 17:41:46,091: Least MSE from SAVGOL loop run 4.4528902629657
+INFO: 2023-01-14 17:41:46,092: Best window size 57
+INFO: 2023-01-14 17:41:46,094: Best polyorder 16
+INFO: 2023-01-14 17:41:46,098: Elapsed time for pipeline run : 16.11
+INFO: 2023-01-14 17:41:46,103: Pipeline end...
+INFO: 2023-01-14 17:41:46,105: ************************************
+INFO: 2023-01-14 17:41:46,107: ************************************
+INFO: 2023-01-14 17:41:46,107: Pipeline Start...
+INFO: 2023-01-14 17:41:46,108: Pipeline params :
+INFO: 2023-01-14 17:41:46,109: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_29.csv'] , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:41:46,110: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:41:46,111: [PRE PROCESSING]
+INFO: 2023-01-14 17:42:00,822: Least MSE from SAVGOL loop run 1.2582311041122738
+INFO: 2023-01-14 17:42:00,823: Best window size 27
+INFO: 2023-01-14 17:42:00,824: Best polyorder 2
+INFO: 2023-01-14 17:42:00,828: Elapsed time for pipeline run : 14.72
+INFO: 2023-01-14 17:42:00,836: Pipeline end...
+INFO: 2023-01-14 17:42:00,837: ************************************
+INFO: 2023-01-14 17:42:00,840: ************************************
+INFO: 2023-01-14 17:42:00,842: Pipeline Start...
+INFO: 2023-01-14 17:42:00,843: Pipeline params :
+INFO: 2023-01-14 17:42:00,851: Data : ['2022_07_13.csv', '2022_06_22.csv', '2022_06_29.csv'] , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-14 17:42:00,856: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 17:42:00,859: [PRE PROCESSING]
+INFO: 2023-01-14 17:42:17,945: Least MSE from SAVGOL loop run 1.6725730822668254
+INFO: 2023-01-14 17:42:17,948: Best window size 51
+INFO: 2023-01-14 17:42:17,949: Best polyorder 16
+INFO: 2023-01-14 17:42:17,952: Elapsed time for pipeline run : 17.11
+INFO: 2023-01-14 17:42:17,954: Pipeline end...
+INFO: 2023-01-14 17:42:17,955: ************************************
+INFO: 2023-01-14 19:10:30,665: ************************************
+INFO: 2023-01-14 19:10:30,666: Pipeline Start...
+INFO: 2023-01-14 19:10:30,666: Pipeline params :
+INFO: 2023-01-14 19:10:30,666: Data : 2022_06_29.csv , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-14 19:10:30,666: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 19:10:31,643: [PRE PROCESSING]
+INFO: 2023-01-14 19:10:32,575: Elapsed time for pipeline run : 1.91
+INFO: 2023-01-14 19:10:32,576: Pipeline end...
+INFO: 2023-01-14 19:10:32,576: ************************************
+INFO: 2023-01-14 19:10:32,576: ************************************
+INFO: 2023-01-14 19:10:32,576: Pipeline Start...
+INFO: 2023-01-14 19:10:32,576: Pipeline params :
+INFO: 2023-01-14 19:10:32,577: Data : 2022_06_29.csv , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-14 19:10:32,577: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-14 19:10:33,537: [PRE PROCESSING]
+INFO: 2023-01-14 19:10:34,623: Elapsed time for pipeline run : 2.05
+INFO: 2023-01-14 19:10:34,623: Pipeline end...
+INFO: 2023-01-14 19:10:34,624: ************************************
+INFO: 2023-01-15 00:01:18,197: ************************************
+INFO: 2023-01-15 00:01:18,198: Pipeline Start...
+INFO: 2023-01-15 00:01:18,199: Pipeline params :
+INFO: 2023-01-15 00:01:18,200: Data : 2022_06_29.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:18,201: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:18,202: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:23,540: Least MSE from SAVGOL loop run 1.9060651086990832
+INFO: 2023-01-15 00:01:23,545: Best window size 9
+INFO: 2023-01-15 00:01:23,547: Best polyorder 8
+INFO: 2023-01-15 00:01:23,549: Elapsed time for pipeline run : 5.35
+INFO: 2023-01-15 00:01:23,561: Pipeline end...
+INFO: 2023-01-15 00:01:23,567: ************************************
+INFO: 2023-01-15 00:01:23,579: ************************************
+INFO: 2023-01-15 00:01:23,590: Pipeline Start...
+INFO: 2023-01-15 00:01:23,591: Pipeline params :
+INFO: 2023-01-15 00:01:23,593: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:23,595: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:23,596: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:28,583: Least MSE from SAVGOL loop run 1.0526063565890384
+INFO: 2023-01-15 00:01:28,584: Best window size 48
+INFO: 2023-01-15 00:01:28,586: Best polyorder 2
+INFO: 2023-01-15 00:01:28,589: Elapsed time for pipeline run : 5.01
+INFO: 2023-01-15 00:01:28,596: Pipeline end...
+INFO: 2023-01-15 00:01:28,597: ************************************
+INFO: 2023-01-15 00:01:28,599: ************************************
+INFO: 2023-01-15 00:01:28,602: Pipeline Start...
+INFO: 2023-01-15 00:01:28,604: Pipeline params :
+INFO: 2023-01-15 00:01:28,605: Data : 2022_06_29.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:28,605: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:28,606: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:31,994: Least MSE from SAVGOL loop run 1.2102311551519658
+INFO: 2023-01-15 00:01:31,995: Best window size 51
+INFO: 2023-01-15 00:01:31,995: Best polyorder 16
+INFO: 2023-01-15 00:01:31,998: Elapsed time for pipeline run : 3.4
+INFO: 2023-01-15 00:01:31,999: Pipeline end...
+INFO: 2023-01-15 00:01:31,999: ************************************
+INFO: 2023-01-15 00:01:32,002: ************************************
+INFO: 2023-01-15 00:01:32,003: Pipeline Start...
+INFO: 2023-01-15 00:01:32,004: Pipeline params :
+INFO: 2023-01-15 00:01:32,005: Data : 2022_06_29.csv , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:32,006: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:32,006: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:32,057: Elapsed time for pipeline run : 0.05
+INFO: 2023-01-15 00:01:32,058: Pipeline end...
+INFO: 2023-01-15 00:01:32,059: ************************************
+INFO: 2023-01-15 00:01:32,059: ************************************
+INFO: 2023-01-15 00:01:32,060: Pipeline Start...
+INFO: 2023-01-15 00:01:32,061: Pipeline params :
+INFO: 2023-01-15 00:01:32,061: Data : 2022_06_29.csv , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:32,062: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:32,063: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:32,175: Elapsed time for pipeline run : 0.12
+INFO: 2023-01-15 00:01:32,176: Pipeline end...
+INFO: 2023-01-15 00:01:32,177: ************************************
+INFO: 2023-01-15 00:01:32,178: ************************************
+INFO: 2023-01-15 00:01:32,182: Pipeline Start...
+INFO: 2023-01-15 00:01:32,188: Pipeline params :
+INFO: 2023-01-15 00:01:32,191: Data : 2022_06_29.csv , Preprocessor : savgol0+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:32,193: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:32,196: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:37,047: Elapsed time for pipeline run : 4.87
+INFO: 2023-01-15 00:01:37,048: Pipeline end...
+INFO: 2023-01-15 00:01:37,049: ************************************
+INFO: 2023-01-15 00:01:37,055: ************************************
+INFO: 2023-01-15 00:01:37,060: Pipeline Start...
+INFO: 2023-01-15 00:01:37,065: Pipeline params :
+INFO: 2023-01-15 00:01:37,067: Data : 2022_06_29.csv , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:37,071: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:37,078: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:40,643: Elapsed time for pipeline run : 3.59
+INFO: 2023-01-15 00:01:40,644: Pipeline end...
+INFO: 2023-01-15 00:01:40,644: ************************************
+INFO: 2023-01-15 00:01:40,648: ************************************
+INFO: 2023-01-15 00:01:40,650: Pipeline Start...
+INFO: 2023-01-15 00:01:40,651: Pipeline params :
+INFO: 2023-01-15 00:01:40,653: Data : 2022_06_29.csv , Preprocessor : savgol2+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:40,654: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:40,654: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:44,617: Elapsed time for pipeline run : 3.97
+INFO: 2023-01-15 00:01:44,619: Pipeline end...
+INFO: 2023-01-15 00:01:44,620: ************************************
+INFO: 2023-01-15 00:01:44,621: ************************************
+INFO: 2023-01-15 00:01:44,631: Pipeline Start...
+INFO: 2023-01-15 00:01:44,635: Pipeline params :
+INFO: 2023-01-15 00:01:44,638: Data : 2022_06_29.csv , Preprocessor : savgol0+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:44,642: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:44,646: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:49,203: Elapsed time for pipeline run : 4.58
+INFO: 2023-01-15 00:01:49,204: Pipeline end...
+INFO: 2023-01-15 00:01:49,208: ************************************
+INFO: 2023-01-15 00:01:49,209: ************************************
+INFO: 2023-01-15 00:01:49,212: Pipeline Start...
+INFO: 2023-01-15 00:01:49,213: Pipeline params :
+INFO: 2023-01-15 00:01:49,214: Data : 2022_06_29.csv , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:49,214: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:49,215: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:52,557: Elapsed time for pipeline run : 3.35
+INFO: 2023-01-15 00:01:52,558: Pipeline end...
+INFO: 2023-01-15 00:01:52,559: ************************************
+INFO: 2023-01-15 00:01:52,564: ************************************
+INFO: 2023-01-15 00:01:52,565: Pipeline Start...
+INFO: 2023-01-15 00:01:52,566: Pipeline params :
+INFO: 2023-01-15 00:01:52,567: Data : 2022_06_29.csv , Preprocessor : savgol2+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:01:52,568: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:01:52,569: [PRE PROCESSING]
+INFO: 2023-01-15 00:01:57,687: Elapsed time for pipeline run : 5.12
+INFO: 2023-01-15 00:01:57,688: Pipeline end...
+INFO: 2023-01-15 00:01:57,689: ************************************
+INFO: 2023-01-15 00:32:27,299: ************************************
+INFO: 2023-01-15 00:32:27,300: Pipeline Start...
+INFO: 2023-01-15 00:32:27,300: Pipeline params :
+INFO: 2023-01-15 00:32:27,301: Data : 2022_06_29.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:32:27,301: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:32:28,355: [PRE PROCESSING]
+INFO: 2023-01-15 00:32:32,108: Least MSE from SAVGOL loop run 1.0679732609323027
+INFO: 2023-01-15 00:32:32,109: Best window size 48
+INFO: 2023-01-15 00:32:32,111: Best polyorder 2
+INFO: 2023-01-15 00:32:32,899: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 00:32:44,723: Optimized n_comp for PLS 39
+INFO: 2023-01-15 00:32:44,724: [MODEL EVALUATION]
+INFO: 2023-01-15 00:32:45,222: Model loss : 0.2656970735910263
+INFO: 2023-01-15 00:32:45,223: Elapsed time for pipeline run : 17.92
+INFO: 2023-01-15 00:32:45,223: Pipeline end...
+INFO: 2023-01-15 00:32:45,224: ************************************
+INFO: 2023-01-15 00:32:45,225: ************************************
+INFO: 2023-01-15 00:32:45,226: Pipeline Start...
+INFO: 2023-01-15 00:32:45,226: Pipeline params :
+INFO: 2023-01-15 00:32:45,227: Data : 2022_06_29.csv , Preprocessor : snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:32:45,228: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:32:46,141: [PRE PROCESSING]
+INFO: 2023-01-15 00:32:47,017: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 00:32:57,945: Optimized n_comp for PLS 30
+INFO: 2023-01-15 00:32:57,949: [MODEL EVALUATION]
+INFO: 2023-01-15 00:32:58,369: Model loss : 0.23723556114434868
+INFO: 2023-01-15 00:32:58,369: Elapsed time for pipeline run : 13.14
+INFO: 2023-01-15 00:32:58,370: Pipeline end...
+INFO: 2023-01-15 00:32:58,370: ************************************
+INFO: 2023-01-15 00:32:58,371: ************************************
+INFO: 2023-01-15 00:32:58,372: Pipeline Start...
+INFO: 2023-01-15 00:32:58,372: Pipeline params :
+INFO: 2023-01-15 00:32:58,373: Data : 2022_06_29.csv , Preprocessor : msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:32:58,375: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:32:59,213: [PRE PROCESSING]
+INFO: 2023-01-15 00:33:00,149: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 00:33:10,434: Optimized n_comp for PLS 6
+INFO: 2023-01-15 00:33:10,435: [MODEL EVALUATION]
+INFO: 2023-01-15 00:33:10,775: Model loss : 0.24646750480141352
+INFO: 2023-01-15 00:33:10,775: Elapsed time for pipeline run : 12.4
+INFO: 2023-01-15 00:33:10,775: Pipeline end...
+INFO: 2023-01-15 00:33:10,776: ************************************
+INFO: 2023-01-15 00:33:10,776: ************************************
+INFO: 2023-01-15 00:33:10,777: Pipeline Start...
+INFO: 2023-01-15 00:33:10,778: Pipeline params :
+INFO: 2023-01-15 00:33:10,779: Data : 2022_06_29.csv , Preprocessor : savgol1+snv, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:33:10,779: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:33:11,610: [PRE PROCESSING]
+INFO: 2023-01-15 00:33:17,987: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 00:33:29,218: Optimized n_comp for PLS 39
+INFO: 2023-01-15 00:33:29,219: [MODEL EVALUATION]
+INFO: 2023-01-15 00:33:29,634: Model loss : 0.27036661619786345
+INFO: 2023-01-15 00:33:29,635: Elapsed time for pipeline run : 18.86
+INFO: 2023-01-15 00:33:29,636: Pipeline end...
+INFO: 2023-01-15 00:33:29,636: ************************************
+INFO: 2023-01-15 00:33:29,637: ************************************
+INFO: 2023-01-15 00:33:29,638: Pipeline Start...
+INFO: 2023-01-15 00:33:29,638: Pipeline params :
+INFO: 2023-01-15 00:33:29,639: Data : 2022_06_29.csv , Preprocessor : savgol1+msc, Model : pls, Evaluator : mse
+INFO: 2023-01-15 00:33:29,640: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2023-01-15 00:33:30,476: [PRE PROCESSING]
+INFO: 2023-01-15 00:33:36,422: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2023-01-15 00:33:47,985: Optimized n_comp for PLS 39
+INFO: 2023-01-15 00:33:47,986: [MODEL EVALUATION]
+INFO: 2023-01-15 00:33:48,475: Model loss : 0.6265047953849817
+INFO: 2023-01-15 00:33:48,476: Elapsed time for pipeline run : 18.84
+INFO: 2023-01-15 00:33:48,476: Pipeline end...
+INFO: 2023-01-15 00:33:48,477: ************************************
