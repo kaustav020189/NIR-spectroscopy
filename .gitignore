@@ -1,2 +1,5 @@
 # All CSV files
 *.csv
+
+# All folders
+*/
