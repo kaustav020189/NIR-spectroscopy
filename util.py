@@ -114,15 +114,15 @@ def get_split_data(files: list, split_params: dict, test_size: float, showDataED
         '''  ** MANUAL SPLITTING CODE **   [when not using the inbuilt stratification]
             # split data based on timestamp to capture a chunk in the beginning as train set
             row_start_index_train, row_stop_index_train = 0, (training_split / 100) * X.shape[0]
-            row_start_index_validation, row_stop_index_validation = 0, (validation_split / 100) * X.shape[0]
-            row_start_index_test, row_stop_index_test = 0, (test_split / 100) * X.shape[0]
+            row_start_index_validation, row_stop_index_validation = row_stop_index_train+1, row_stop_index_train+(validation_split / 100) * X.shape[0]
+            row_start_index_test, row_stop_index_test = row_stop_index_validation+1, X.shape[0]
 
-            X_train = X.iloc[row_start_index_train:row_stop_index_train,:]
-            y_train = y.iloc[row_start_index_train:row_stop_index_train]
-            X_validation = X.iloc[row_start_index_validation:row_stop_index_validation,:]
-            y_validation = y.iloc[row_start_index_validation:row_stop_index_validation]
-            X_test = X.iloc[row_start_index_test:row_stop_index_test,:]
-            y_test = y.iloc[row_start_index_test:row_stop_index_test]
+            X_train = X.iloc[int(row_start_index_train):int(row_stop_index_train),:]
+            y_train = y.iloc[int(row_start_index_train):int(row_stop_index_train)]
+            X_validation = X.iloc[int(row_start_index_validation):int(row_stop_index_validation),:]
+            y_validation = y.iloc[int(row_start_index_validation):int(row_stop_index_validation)]
+            X_test = X.iloc[int(row_start_index_test):int(row_stop_index_test),:]
+            y_test = y.iloc[int(row_start_index_test):int(row_stop_index_test)]
             '''
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42, shuffle=True)
         return X_train, X_test, y_train, y_test
@@ -283,17 +283,9 @@ def pipeline(pipeline_params: dict):
 
         # Fit model again on preprocessed data and check results
         model.fit(X_train_preprocessed, y_train)
-        # plt.figure()
-        # weights = model.coef_
-        # plt.plot(weights)
 
         # make a prediction
         y_pred = model.predict(X_test_preprocessed)
-
-        # plt.figure()
-        # plt.plot(y_test)
-        # plt.plot(y_pred)
-        # plt.show()
 
         # Calculate mean squared error for y_pred and y_test
         mse_c = mean_squared_error(y_test, y_pred)
@@ -455,12 +447,10 @@ def optimize_and_validate_lasso(X_train, X_test, y_train, y_test, validation_par
     # define model evaluation method
 
     if validation_params['validation_type'] == 'kfold-cv':
-        cv = KFold(n_splits=validation_params['folds'], random_state=None, shuffle=False)
-    elif validation_params['validation_type'] == 'stratified-kfold-cv':
-        cv = StratifiedKFold(n_splits=validation_params['folds'], random_state=None, shuffle=False)
-    # elif validation_params['validation_type'] == 'repeated-kfold-cv':
-    #     cv = RepeatedKFold(n_repeats=2, n_splits=validation_params['folds'],
-    #                        random_state=2652124)  # any int, helps reproduce same split over multiple runs
+        cv = KFold(n_splits=validation_params['folds'], shuffle=True)
+    elif validation_params['validation_type'] == 'repeated-kfold-cv':
+        cv = RepeatedKFold(n_splits=validation_params['folds'], n_repeats=5)
+
     # define model
     # alphas=np.arange(0, 1, 0.01)
     model = LassoCV(cv=cv, random_state=0, max_iter=10000)
@@ -470,22 +460,11 @@ def optimize_and_validate_lasso(X_train, X_test, y_train, y_test, validation_par
     # make a prediction
     y_pred = model.predict(X_test)
 
-    # plt.figure()
-    # weights = model.coef_
-    # plt.plot(weights)
-    #
-    # plt.figure()
-    # # plt.plot(y_test,'.')
-    # # plt.plot(y_pred,'.')
-    # print(y_pred.shape)
-    # print(y_test.shape)
-    # plt.show()
-
-    plt.figure(figsize=(8, 5))
-    with plt.style.context('ggplot'):
-        plt.plot(y_test, '.')
-        plt.plot(y_pred, '.')
-        plt.show()
+    # plt.figure(figsize=(8, 5))
+    # with plt.style.context('ggplot'):
+    #     plt.plot(y_test, '.')
+    #     plt.plot(y_pred, '.')
+    #     plt.show()
 
     # summarize chosen configuration
     return model.alpha_
@@ -619,8 +598,27 @@ def evaluate_lasso(X_train, X_test, y_train, y_test, best_alpha_val, showPlot=Fa
     lasso_best = Lasso(alpha=best_alpha_val)
     lasso_best.fit(X_train, y_train)
 
+    y_pred = lasso_best.predict(X_test)
+
     # EVALUATION
-    loss = mean_squared_error(y_test, lasso_best.predict(X_test))
+    loss = mean_squared_error(y_test, y_pred)
+
+    # Plot
+    if showModelEvaluationPlots:
+        # Fit a line to the test vs pred
+        z = np.polyfit(y_test, y_pred, 1)
+        with plt.style.context(('ggplot')):
+            fig, ax = plt.subplots(figsize=(9, 5))
+            ax.scatter(y_pred, y_test, c='red', edgecolors='k')
+            # Plot the best fit line
+            ax.plot(np.polyval(z, y_test), y_test, c='blue', linewidth=1)
+            # Plot the ideal 1:1 line
+            ax.plot(y_test, y_test, color='green', linewidth=1)
+            # plt.title('$R^{2}$ (CV): '+str(score_cv))
+            plt.xlabel('Predicted $^{\circ}$Brix')
+            plt.ylabel('Measured $^{\circ}$Brix')
+
+            plt.show()
 
     return loss
 
